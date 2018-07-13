@@ -21,95 +21,90 @@
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="active" onclick="setActiveMenu(this)"><a href="#">Conviértete en anfitrión <span class="sr-only">(current)</span></a></li>
-						<li onclick="setActiveMenu(this)"><a href="#">Gana crédito</a></li>
-						<li onclick="setActiveMenu(this)"><a href="#">Ayuda</a></li>
-						<li onclick="setActiveMenu(this)"><a href="#">Regístrate</a></li>
-						<li onclick="setActiveMenu(this)"><a href="#">Iniciar sesión</a></li>
+						<li class="active" data-section-url="index.html" onclick="setActiveMenu(this)"><a href="#">Encuentra tu alojamiento <span class="sr-only">(current)</span></a></li>
+						<li data-section-url="upload_form.html" onclick="setActiveMenu(this)"><a href="#">Conviertete en anfitrión</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
-		<section>
+		<section class="main-wrapper">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="dynamic-background">
 						<h3>Reserva alojamientos y experiencias especiales alrededor del mundo.</h3>
-						<div class="form-group">
+						<div class="form-group search-box">
 							<input type="text" class="form-control" placeholder="Busca en tu localidad:">
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-6 col-md-3">
-						<div class="panel panel-default location-panel">
-							<img src="img/host-covers/location-1.jpg" alt="">
-							<h2>Put the title here</h2>
-							<h3>Put the description here</h3>
-							<h4>Put the princing here</h4>
-							<div class="input-group range">
-								<div class="stars-wrapper">
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
+					<div class="hostings-wrapper">
+						<div class="col-sm-6 col-md-3">
+							<div class="panel panel-default location-panel">
+								<img src="img/host-covers/location-1.jpg" alt="">
+								<h2>Put the title here</h2>
+								<h3>Put the description here</h3>
+								<h4>Put the princing here</h4>
+								<div class="input-group range">
+									<div class="stars-wrapper">
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+									</div>
 								</div>
-								<label for="range-1">307 - Superhost</label>
 							</div>
 						</div>
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<div class="panel panel-default location-panel">
-							<img src="img/host-covers/location-2.jpg" alt="">
-							<h2>Put the title here</h2>
-							<h3>Put the description here</h3>
-							<h4>Put the princing here</h4>
-							<div class="input-group range">
-								<div class="stars-wrapper">
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
+						<div class="col-sm-6 col-md-3">
+							<div class="panel panel-default location-panel">
+								<img src="img/host-covers/location-2.jpg" alt="">
+								<h2>Put the title here</h2>
+								<h3>Put the description here</h3>
+								<h4>Put the princing here</h4>
+								<div class="input-group range">
+									<div class="stars-wrapper">
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+									</div>
 								</div>
-								<label for="range-1">307 - Superhost</label>
 							</div>
 						</div>
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<div class="panel panel-default location-panel">
-							<img src="img/host-covers/location-3.jpg" alt="">
-							<h2>Put the title here</h2>
-							<h3>Put the description here</h3>
-							<h4>Put the princing here</h4>
-							<div class="input-group range">
-								<div class="stars-wrapper">
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
+						<div class="col-sm-6 col-md-3">
+							<div class="panel panel-default location-panel">
+								<img src="img/host-covers/location-3.jpg" alt="">
+								<h2>Put the title here</h2>
+								<h3>Put the description here</h3>
+								<h4>Put the princing here</h4>
+								<div class="input-group range">
+									<div class="stars-wrapper">
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+									</div>
 								</div>
-								<label for="range-1">307 - Superhost</label>
 							</div>
 						</div>
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<div class="panel panel-default location-panel">
-							<img src="img/host-covers/location-4.jpg" alt="">
-							<h2>Put the title here</h2>
-							<h3>Put the description here</h3>
-							<h4>Put the princing here</h4>
-							<div class="input-group range">
-								<div class="stars-wrapper">
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
-									<span class="glyphicon glyphicon-star"></span>
+						<div class="col-sm-6 col-md-3">
+							<div class="panel panel-default location-panel">
+								<img src="img/host-covers/location-4.jpg" alt="">
+								<h2>Put the title here</h2>
+								<h3>Put the description here</h3>
+								<h4>Put the princing here</h4>
+								<div class="input-group range">
+									<div class="stars-wrapper">
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+									</div>
 								</div>
-								<label for="range-1">307 - Superhost</label>
 							</div>
 						</div>
 					</div>

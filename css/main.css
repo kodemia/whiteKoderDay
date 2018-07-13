@@ -1,3 +1,6 @@
+.navbar-default {
+  margin-bottom: 0px;
+}
 .navbar-default.navbar {
   background-color: black;
 }
@@ -26,10 +29,10 @@
 
 .dynamic-background {
   height: 100vh;
-  background: url("../img/main-backgrounds/bg1.jpg");
-  background-size: 100%;
-  background-opacity: 0.8;
-  margin-bottom: 20px;
+  background-image: url("../img/main-backgrounds/bg1.jpg");
+  background-size: cover;
+  -webkit-transition: all 2s;
+  /* Safari */
 }
 .dynamic-background h3 {
   margin-top: 45vh;
@@ -40,17 +43,42 @@
   float: left;
   margin-left: 25vw;
 }
-.dynamic-background .form-group {
+.dynamic-background .search-box {
   margin-top: 30px;
   width: 50%;
   display: block;
   float: left;
   margin-left: 25vw;
 }
+.dynamic-background .upload-form {
+  color: white;
+  margin-top: 30vh;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 3px 3px 3px #222;
+  border-radius: 5px;
+}
+.dynamic-background .upload-form .btn-primary {
+  background: none;
+  background: black;
+  border: 1px solid white;
+  color: white;
+}
+.dynamic-background .upload-form .btn-primary:hover {
+  background: white;
+  border: 1px solid white;
+  color: #333;
+}
+
+.hostings-wrapper {
+  margin-top: 20px;
+}
 
 .location-panel {
   position: relative;
   overflow: hidden;
+  box-shadow: 3px 3px 3px #CCC;
+  padding-bottom: 10px;
 }
 .location-panel img {
   min-width: 100%;
@@ -62,6 +90,13 @@
 }
 .location-panel h2 {
   margin-top: calc(20vw + 10px);
+  padding: 0px 15px;
+}
+.location-panel h3, .location-panel h4, .location-panel .stars-wrapper {
+  padding: 0px 15px;
+}
+.location-panel .stars-wrapper {
+  color: #EFCE4A;
 }
 
 /*# sourceMappingURL=main.css.map */

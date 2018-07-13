@@ -1,4 +1,5 @@
 .navbar-default{
+	margin-bottom:0px;
 	&.navbar{
 		background-color:black;
 	}
@@ -34,9 +35,9 @@
 
 .dynamic-background{
 	height:100vh;
-	background:url("../img/main-backgrounds/bg1.jpg");
-	background-size:100%;
-	background-opacity:.8;
+	background-image:url("../img/main-backgrounds/bg1.jpg");
+	background-size:cover;
+	-webkit-transition: all 2s; /* Safari */
 	h3{
 		margin-top:45vh;
 		color:white;
@@ -46,19 +47,43 @@
 		float:left;
 		margin-left:25vw;
 	}
-	.form-group{
+	.search-box{
 		margin-top:30px;
 		width:50%;
 		display:block;
 		float:left;
 		margin-left:25vw;
 	}
-	margin-bottom:20px;
+	.upload-form{
+		color:white;
+		margin-top: 30vh;
+		padding:20px;
+		background: rgba(0,0,0,.7);
+		box-shadow:3px 3px 3px #222;
+		border-radius:5px;
+		.btn-primary{
+			background:none;
+			background:black;
+			border:1px solid white;
+			color:white;
+			&:hover{
+				background:white;
+				border:1px solid white;
+				color:#333;
+			}
+		}
+	}
+}
+
+.hostings-wrapper{
+	margin-top:20px
 }
 
 .location-panel{
 	position:relative;
 	overflow:hidden;
+	box-shadow:3px 3px 3px #CCC;
+	padding-bottom:10px;
 	img{
 		min-width:100%;
 		height:20vw;
@@ -68,6 +93,13 @@
 	    -webkit-transform: translateX(-50%);
 	}
 	h2{
-		margin-top:calc(20vw + 10px)
+		margin-top:calc(20vw + 10px);
+		padding:0px 15px;
+	}
+	h3,h4, .stars-wrapper{
+		padding:0px 15px;
+	}
+	.stars-wrapper{
+		color:#EFCE4A
 	}
 }
