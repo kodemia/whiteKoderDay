@@ -84,6 +84,8 @@
 	overflow:hidden;
 	box-shadow:3px 3px 3px #CCC;
 	padding-bottom:10px;
+	height:55vh;
+	position:relative;
 	img{
 		min-width:100%;
 		height:20vw;
@@ -95,9 +97,26 @@
 	h2{
 		margin-top:calc(20vw + 10px);
 		padding:0px 15px;
+		font-style:italic;
+		color:#c63b25;
+		font-weight:bold;
+		font-size:16px
+	}
+
+	h3{
+		font-weight:bold;
+		margin-top:10px;
+	}
+	h4{
+		text-align:right;
+		position:absolute;
+		bottom:0px;
+		right:0px;
+		font-style:italic;
 	}
 	h3,h4, .stars-wrapper{
 		padding:0px 15px;
+		font-size:14px;
 	}
 	.stars-wrapper{
 		color:#EFCE4A
