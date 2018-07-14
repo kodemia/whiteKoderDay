@@ -34,7 +34,7 @@
   -webkit-transition: all 2s;
   /* Safari */
 }
-.dynamic-background h3 {
+.dynamic-background h1 {
   margin-top: 45vh;
   color: white;
   text-shadow: 1px 1px 5px black;
@@ -115,6 +115,45 @@
 }
 .location-panel .stars-wrapper {
   color: #EFCE4A;
+}
+
+@media (max-width: 600px) {
+  .dynamic-background h1 {
+    margin-top: 35vh;
+    font-size: 28px;
+  }
+  .dynamic-background .upload-form {
+    margin-top: 25vh;
+  }
+
+  .location-panel img {
+    height: 33vh;
+  }
+  .location-panel h1 {
+    margin-top: 35vh;
+  }
+  .location-panel h2 {
+    margin-top: calc(60vw + 10px);
+  }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+  .dynamic-background h1 {
+    margin-top: 35vh;
+    font-size: 28px;
+  }
+
+  .location-panel {
+    height: 40vh;
+  }
+  .location-panel img {
+    height: 25vh;
+  }
+  .location-panel h1 {
+    margin-top: 50vh;
+  }
+  .location-panel h2 {
+    margin-top: calc(35vw + 10px);
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

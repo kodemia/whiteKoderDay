@@ -38,7 +38,7 @@
 	background-image:url("../img/main-backgrounds/bg1.jpg");
 	background-size:cover;
 	-webkit-transition: all 2s; /* Safari */
-	h3{
+	h1{
 		margin-top:45vh;
 		color:white;
 		text-shadow:1px 1px 5px black;
@@ -121,4 +121,48 @@
 	.stars-wrapper{
 		color:#EFCE4A
 	}
+}
+
+@media (max-width: 600px) {
+	.dynamic-background{
+		h1{
+			margin-top:35vh;
+			font-size:28px
+		}
+		.upload-form{
+			margin-top:25vh;
+		}
+	}
+   .location-panel{
+    	img{
+    		height:33vh;
+    	}
+    	h1{
+    		margin-top: 35vh;
+    	}
+    	h2{
+		    margin-top: calc(60vw + 10px);
+    	}
+    }
+}
+
+@media (min-width:601px) and (max-width: 768px) {
+	.dynamic-background{
+		h1{
+			margin-top:35vh;
+			font-size:28px
+		}
+	}
+   .location-panel{
+   		height:40vh;
+    	img{
+    		height:25vh;
+    	}
+    	h1{
+    		margin-top: 50vh;
+    	}
+    	h2{
+		    margin-top: calc(35vw + 10px)
+    	}
+    }
 }
