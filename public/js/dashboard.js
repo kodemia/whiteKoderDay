@@ -2,16 +2,9 @@
 // RECUPERAR los datos de la base
 // once value
 
-// housingRef.once('value', function(snapshot) {
-//   $.each(snapshot.val(), function(key,value) {
-//     // console.log(key,value);
-//     buildHousing(key,value);
-//   })
-// });
-
 // on child_added
 housingRef.on('child_added', function(snapshot) {
-  // console.log(snapshot.key, snapshot.val());
+  console.log( snapshot.val(),'child_added');
   buildHousing(snapshot.key, snapshot.val());
 });
 
